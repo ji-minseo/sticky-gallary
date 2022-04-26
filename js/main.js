@@ -29,9 +29,9 @@ function sticky() {
     if(current >= offset && current <= offset * 2 ){/*오프셋의 2배(400vh)가 되면 언스틱*/
         stickyProject.style.transform = `translate3d(0, ${current - offset}px, 0)`;
     }
-    if(current > offset * 2 ){/*오프셋의 2배(400vh)가 되면 언스틱*/
-        stickyProject.style.transform = `translate3d(0, ${offset}px, 0)`;
-    }
+    // if(current > offset * 2 ){/*오프셋의 2배(400vh)가 되면 언스틱*/
+    //     stickyProject.style.transform = `translate3d(0, ${offset}px, 0)`;
+    // }
 }
 init()
 smoothScroll()
